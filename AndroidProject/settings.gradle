@@ -1,0 +1,3 @@
+include ':Test'
+include ':UnityAndroidCore'
+include ':UnityAndroidGoogle'

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "group:UnityPluginApple/UnityPluginApple.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:UnityPluginBridge/UnityPluginBridge.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:UnityPluginCore/UnityPluginCore.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:UnityPluginGoogle/UnityPluginGoogle.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Test/Test.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Pods/Pods.xcodeproj">
+   </FileRef>
+</Workspace>

@@ -1,0 +1,431 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A6407C1623D89A150094BF6E /* DummyPluginProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6407C1523D89A150094BF6E /* DummyPluginProtocol.swift */; };
+		A659511725134CBA005B8D22 /* Plugin_clipboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = A659511625134CBA005B8D22 /* Plugin_clipboard.swift */; };
+		A67C9C182581C46C00CBA40E /* libPods-UnityPluginCore.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A67C9C172581C46C00CBA40E /* libPods-UnityPluginCore.a */; };
+		A6C1C8C724D2862900729390 /* PluginBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6C1C8C624D2862900729390 /* PluginBase.swift */; };
+		A6C31F642600878200EB7EF0 /* Plugin_share.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6C31F632600878200EB7EF0 /* Plugin_share.swift */; };
+		A6D281B723C0A0E6007F0903 /* UnityPluginCore.h in Headers */ = {isa = PBXBuildFile; fileRef = A6D281B523C0A0E6007F0903 /* UnityPluginCore.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A6D2824523C0D8DD007F0903 /* PluginProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6D2824423C0D8DD007F0903 /* PluginProtocol.swift */; };
+		A6D282AB23C0E453007F0903 /* Plugin.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6D282AA23C0E453007F0903 /* Plugin.swift */; };
+		A6D282B023C0E6C0007F0903 /* PluginViewControllerBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6D282AF23C0E6C0007F0903 /* PluginViewControllerBase.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		012A15C9F6B1ED04027D2B59 /* Pods-UnityPluginCore.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UnityPluginCore.debug.xcconfig"; path = "Target Support Files/Pods-UnityPluginCore/Pods-UnityPluginCore.debug.xcconfig"; sourceTree = "<group>"; };
+		A6407C1523D89A150094BF6E /* DummyPluginProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DummyPluginProtocol.swift; sourceTree = "<group>"; };
+		A659511625134CBA005B8D22 /* Plugin_clipboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Plugin_clipboard.swift; sourceTree = "<group>"; };
+		A67C9C172581C46C00CBA40E /* libPods-UnityPluginCore.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = "libPods-UnityPluginCore.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6C1C8C624D2862900729390 /* PluginBase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PluginBase.swift; sourceTree = "<group>"; };
+		A6C31F632600878200EB7EF0 /* Plugin_share.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Plugin_share.swift; sourceTree = "<group>"; };
+		A6D281B223C0A0E6007F0903 /* UnityPluginCore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = UnityPluginCore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6D281B523C0A0E6007F0903 /* UnityPluginCore.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UnityPluginCore.h; sourceTree = "<group>"; };
+		A6D281B623C0A0E6007F0903 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A6D2824423C0D8DD007F0903 /* PluginProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PluginProtocol.swift; sourceTree = "<group>"; };
+		A6D282AA23C0E453007F0903 /* Plugin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Plugin.swift; sourceTree = "<group>"; };
+		A6D282AF23C0E6C0007F0903 /* PluginViewControllerBase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PluginViewControllerBase.swift; sourceTree = "<group>"; };
+		D68951289B20E521F92CFB57 /* Pods-UnityPluginCore.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UnityPluginCore.release.xcconfig"; path = "Target Support Files/Pods-UnityPluginCore/Pods-UnityPluginCore.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A6D281AF23C0A0E6007F0903 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A67C9C182581C46C00CBA40E /* libPods-UnityPluginCore.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		84BE071EE511BE353FD692E5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				012A15C9F6B1ED04027D2B59 /* Pods-UnityPluginCore.debug.xcconfig */,
+				D68951289B20E521F92CFB57 /* Pods-UnityPluginCore.release.xcconfig */,
+			);
+			name = Pods;
+			path = ../Pods;
+			sourceTree = "<group>";
+		};
+		A6D281A823C0A0E6007F0903 = {
+			isa = PBXGroup;
+			children = (
+				A6D281B423C0A0E6007F0903 /* UnityPluginCore */,
+				A6D281B323C0A0E6007F0903 /* Products */,
+				E8D6508270A3EB859FDC960F /* Frameworks */,
+				84BE071EE511BE353FD692E5 /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		A6D281B323C0A0E6007F0903 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A6D281B223C0A0E6007F0903 /* UnityPluginCore.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A6D281B423C0A0E6007F0903 /* UnityPluginCore */ = {
+			isa = PBXGroup;
+			children = (
+				A6D281B623C0A0E6007F0903 /* Info.plist */,
+				A6D281B523C0A0E6007F0903 /* UnityPluginCore.h */,
+				A6D282AA23C0E453007F0903 /* Plugin.swift */,
+				A6D2824423C0D8DD007F0903 /* PluginProtocol.swift */,
+				A6D282AF23C0E6C0007F0903 /* PluginViewControllerBase.swift */,
+				A6C1C8C624D2862900729390 /* PluginBase.swift */,
+				A6407C1523D89A150094BF6E /* DummyPluginProtocol.swift */,
+				A659511625134CBA005B8D22 /* Plugin_clipboard.swift */,
+				A6C31F632600878200EB7EF0 /* Plugin_share.swift */,
+			);
+			path = UnityPluginCore;
+			sourceTree = "<group>";
+		};
+		E8D6508270A3EB859FDC960F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A67C9C172581C46C00CBA40E /* libPods-UnityPluginCore.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		A6D281AD23C0A0E6007F0903 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6D281B723C0A0E6007F0903 /* UnityPluginCore.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		A6D281B123C0A0E6007F0903 /* UnityPluginCore */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A6D281BA23C0A0E6007F0903 /* Build configuration list for PBXNativeTarget "UnityPluginCore" */;
+			buildPhases = (
+				AADDB3FCC628B9A08D782A67 /* [CP] Check Pods Manifest.lock */,
+				A6D281AD23C0A0E6007F0903 /* Headers */,
+				A6D281AE23C0A0E6007F0903 /* Sources */,
+				A6D281AF23C0A0E6007F0903 /* Frameworks */,
+				A6D281B023C0A0E6007F0903 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UnityPluginCore;
+			productName = UnityPluginCore;
+			productReference = A6D281B223C0A0E6007F0903 /* UnityPluginCore.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A6D281A923C0A0E6007F0903 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1220;
+				ORGANIZATIONNAME = Company;
+				TargetAttributes = {
+					A6D281B123C0A0E6007F0903 = {
+						CreatedOnToolsVersion = 11.3;
+						LastSwiftMigration = 1130;
+					};
+				};
+			};
+			buildConfigurationList = A6D281AC23C0A0E6007F0903 /* Build configuration list for PBXProject "UnityPluginCore" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A6D281A823C0A0E6007F0903;
+			productRefGroup = A6D281B323C0A0E6007F0903 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A6D281B123C0A0E6007F0903 /* UnityPluginCore */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A6D281B023C0A0E6007F0903 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		AADDB3FCC628B9A08D782A67 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-UnityPluginCore-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A6D281AE23C0A0E6007F0903 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6D282AB23C0E453007F0903 /* Plugin.swift in Sources */,
+				A6C1C8C724D2862900729390 /* PluginBase.swift in Sources */,
+				A6C31F642600878200EB7EF0 /* Plugin_share.swift in Sources */,
+				A6407C1623D89A150094BF6E /* DummyPluginProtocol.swift in Sources */,
+				A659511725134CBA005B8D22 /* Plugin_clipboard.swift in Sources */,
+				A6D2824523C0D8DD007F0903 /* PluginProtocol.swift in Sources */,
+				A6D282B023C0E6C0007F0903 /* PluginViewControllerBase.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		A6D281B823C0A0E6007F0903 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A6D281B923C0A0E6007F0903 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A6D281BB23C0A0E6007F0903 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 012A15C9F6B1ED04027D2B59 /* Pods-UnityPluginCore.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = "";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = UnityPluginCore/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = co.company.unity.core;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=macosx*]" = "";
+				SKIP_INSTALL = NO;
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A6D281BC23C0A0E6007F0903 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D68951289B20E521F92CFB57 /* Pods-UnityPluginCore.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = "";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = UnityPluginCore/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = co.company.unity.core;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=macosx*]" = "";
+				SKIP_INSTALL = NO;
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A6D281AC23C0A0E6007F0903 /* Build configuration list for PBXProject "UnityPluginCore" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6D281B823C0A0E6007F0903 /* Debug */,
+				A6D281B923C0A0E6007F0903 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A6D281BA23C0A0E6007F0903 /* Build configuration list for PBXNativeTarget "UnityPluginCore" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6D281BB23C0A0E6007F0903 /* Debug */,
+				A6D281BC23C0A0E6007F0903 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A6D281A923C0A0E6007F0903 /* Project object */;
+}

@@ -1,0 +1,28 @@
+# Uncomment this line to define a global platform for your project
+platform :ios, '13.0'
+# Uncomment this line if you're using Swift
+#use_frameworks!
+
+workspace 'UnityIOSPlugin'
+
+target 'UnityPluginBridge' do
+project 'UnityPluginBridge/UnityPluginBridge.xcodeproj'
+end
+
+target 'UnityPluginCore' do
+project 'UnityPluginCore/UnityPluginCore.xcodeproj'
+end
+
+target 'UnityPluginApple' do
+project 'UnityPluginApple/UnityPluginApple.xcodeproj'
+end
+
+target 'UnityPluginGoogle' do
+project 'UnityPluginGoogle/UnityPluginGoogle.xcodeproj'
+  pod 'GoogleSignIn', '5.0.2'
+end
+
+target 'Test' do
+project 'Test/Test.xcodeproj'
+end
+
